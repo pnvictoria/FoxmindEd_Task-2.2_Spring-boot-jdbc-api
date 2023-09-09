@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/university
+    username: postgres
+    password: 123qwe
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: '0'
